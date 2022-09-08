@@ -1,0 +1,7 @@
+FIles you must have in every project
+
+- The Virtual Environment = py -m venv venv
+- The requirements.txt = pip freeze > requirements.txt
+- The README.md
+- The .gitignore 
+

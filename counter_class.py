@@ -16,3 +16,13 @@ counts.setdefault("apples", 0)
 print(counts.most_common(3))
 print(fruits)
 print(Counter("mississipi")) 
+
+# Basic sentence counter
+# split counts words while strips counts every single letter and whitespaces
+sent = "The park is full of lots aye and I think they are all fucking wops"
+print(len(sent.split()))
+
+# words counter
+print(len(sent.strip()))
+
+

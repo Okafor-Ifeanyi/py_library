@@ -88,6 +88,7 @@ count = dict()
 for value in nums:
     count[value] = count.get(value, 0) + 1
 
+
 # for value in nums:
 #     if not value in count:
 #         count[value] = 1
@@ -104,6 +105,6 @@ def gen_func(nums):
 
 my_gen = gen_func(nums)
 
-for val in my_gen:
-    print(val)
+# for val in my_gen:
+#     print(val)
 
